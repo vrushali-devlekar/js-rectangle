@@ -30,3 +30,9 @@ rect.addEventListener("mousemove", function (dets) {
     });
   }
 });
+
+rect.addEventListener("mouseleave", function () {
+  gsap.to(rect, {
+    backgroundColor: "white",
+  });
+});
